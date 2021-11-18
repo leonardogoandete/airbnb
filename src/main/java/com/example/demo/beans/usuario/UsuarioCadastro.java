@@ -25,8 +25,8 @@ public class UsuarioCadastro {
 
     // adiciona User
     public void adiciona(Usuario usr){
-        listaUsuarios.add(usr);
-        System.out.println("Usuario adicionado: "+ usr.getUser());
+            listaUsuarios.add(usr);
+            System.out.println("Usuario adicionado: " + usr.getUser());
     }
 
     //retorna User
